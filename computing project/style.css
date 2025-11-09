@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, 
+    #74ebd5, #ACB6E5);
+}
+body {
+    font-family: Arial, sans-serif; /* Sets a default font for the entire body */
+  }
+  h1 {
+    font-family: "Times New Roman", serif; /* Sets a specific font for h1 elements */
+  }
+
+  .main-btn {
+  background-color: #6A5ACD;   /* soft purple-blue color */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(106, 90, 205, 0.5); /* glowing effect */
+  transition: 0.3s ease;
+}
+
+/* special hover effect */
+.main-btn:hover {
+  background-color: #7B68EE; /* lighter purple when hovered */
+  box-shadow: 0 0 20px rgba(123, 104, 238, 0.8); /* glow stronger */
+  transform: scale(1.05); /* slight pop-up effect */
+}
+
+
+
+
+ .sec-btn {
+  background-color: #ac5acd;   /* soft purple-blue color */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(106, 90, 205, 0.5); /* glowing effect */
+  transition: 0.3s ease;
+}
+
+
+/* taken inspo from titok tutorials*/
